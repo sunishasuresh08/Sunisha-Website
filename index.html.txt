@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunisha | Nutritionist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+  <!-- Header -->
+  <header class="bg-green-500 text-white shadow p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Sunisha S.</h1>
+      <nav>
+        <ul class="flex gap-4">
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#services" class="hover:underline">Services</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-green-100 py-20 text-center">
+    <h2 class="text-4xl font-semibold mb-4">Eat Better. Feel Stronger.</h2>
+    <p class="text-lg max-w-xl mx-auto">Personalized nutrition guidance to help you achieve fat loss, hormonal balance, and vibrant health.</p>
+    <a href="#contact" class="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700">Book a Consultation</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-4">About Me</h3>
+      <p class="text-gray-700 max-w-3xl">
+        Hi! I'm Sunisha, a qualified nutritionist passionate about helping busy professionals and fitness enthusiasts eat smarter, live healthier, and achieve their wellness goals. I specialize in fat-loss, hormone health, and practical eating strategies tailored to your lifestyle.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-8 text-center">What I Offer</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <h4 class="text-xl font-bold mb-2">1:1 Nutrition Consultation</h4>
+          <p>Customized diet plans for weight loss, muscle gain, or managing conditions like PCOS, diabetes, or thyroid.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <h4 class="text-xl font-bold mb-2">Corporate Wellness</h4>
+          <p>Workshops and seminars for employee health, productivity, and lifestyle management in corporate settings.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <h4 class="text-xl font-bold mb-2">Meal Planning Support</h4>
+          <p>Simple, weekly meal plans with easy grocery guides for working professionals and families.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-8 text-center">Contact Me</h3>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border border-gray-300 p-3 rounded" required />
+        <input type="email" placeholder="Email Address" class="w-full border border-gray-300 p-3 rounded" required />
+        <textarea placeholder="Your Message" rows="5" class="w-full border border-gray-300 p-3 rounded" required></textarea>
+        <button type="submit" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-500 text-white text-center py-6">
+    <p>© 2025 Sunisha S. | All rights reserved</p>
+  </footer>
+
+</body>
+</html>
